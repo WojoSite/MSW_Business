@@ -1,0 +1,57 @@
+$btn-normal: #3333ff;
+$btn-hover: #4d4dff;
+$btn-active: #0000b3;
+$menu-font: 'Montserrat', sans-serif;
+$logo-font: 'Audiowide', cursive;
+
+#navbar-container{
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
+  height: 60px;
+  width: 100%;
+  padding: 10px;
+  #company-logo-link{
+    text-decoration: none;
+    #company-logo{
+      float: left;
+      #company-logo-text{
+        margin: 0;
+        font-size: 30px;
+        font-family: $logo-font;
+        color: black;
+      }
+    }
+  }
+  #menu-items{
+    float: right;
+    .menu-link{
+      text-decoration: none;
+      text-align: center;
+      .menu-item{
+        display: inline-block;
+        box-sizing: border-box;
+        height: 40px;
+        width: 100px;
+        margin: 0 10px;
+        border-radius: 6px;
+        color: white;
+        background-color: #3333ff;
+        text-align: center;
+        font-family: $menu-font;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        &:hover{
+          background-color: $btn-hover;
+        }
+        &:active{
+          background-color: $btn-active;
+        }
+        .menu-item-text{
+          margin: 0;
+          line-height: 40px;
+          color: white;
+        }
+      }
+    }
+  }
+}

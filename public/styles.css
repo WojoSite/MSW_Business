@@ -1,0 +1,104 @@
+#navbar-container {
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
+  height: 60px;
+  width: 100%;
+  padding: 10px; }
+  #navbar-container #company-logo-link {
+    text-decoration: none; }
+    #navbar-container #company-logo-link #company-logo {
+      float: left; }
+      #navbar-container #company-logo-link #company-logo #company-logo-text {
+        margin: 0;
+        font-size: 30px;
+        font-family: "Audiowide", cursive;
+        color: black; }
+  #navbar-container #menu-items {
+    float: right; }
+    #navbar-container #menu-items .menu-link {
+      text-decoration: none;
+      text-align: center; }
+      #navbar-container #menu-items .menu-link .menu-item {
+        display: inline-block;
+        box-sizing: border-box;
+        height: 40px;
+        width: 100px;
+        margin: 0 10px;
+        border-radius: 6px;
+        color: white;
+        background-color: #3333ff;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); }
+        #navbar-container #menu-items .menu-link .menu-item:hover {
+          background-color: #4d4dff; }
+        #navbar-container #menu-items .menu-link .menu-item:active {
+          background-color: #0000b3; }
+        #navbar-container #menu-items .menu-link .menu-item .menu-item-text {
+          margin: 0;
+          line-height: 40px;
+          color: white; }
+
+h1 {
+  margin: 0; }
+
+#sign-in-container {
+  height: auto;
+  width: 400px;
+  margin: 40px auto;
+  justify-content: center; }
+  #sign-in-container #sign-in-form {
+    text-align: center; }
+    #sign-in-container #sign-in-form .input-area {
+      height: 50px;
+      margin: 10px;
+      width: 250px;
+      font-size: 20px;
+      font-weight: bold;
+      border-style: none;
+      border-bottom: 1px solid black;
+      outline: none;
+      font-family: 'Montserrat', sans-serif; }
+    #sign-in-container #sign-in-form #submit-button {
+      display: block;
+      margin: 20px auto;
+      height: 50px;
+      width: 250px;
+      border-style: none;
+      outline: none;
+      cursor: pointer;
+      border-radius: 6px;
+      text-align: center;
+      font-size: 20px;
+      background-color: #3333ff;
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); }
+      #sign-in-container #sign-in-form #submit-button:hover {
+        background-color: #4d4dff; }
+      #sign-in-container #sign-in-form #submit-button:active {
+        background-color: #0000b3; }
+  #sign-in-container #create-account {
+    height: 30px;
+    width: 250px;
+    margin: auto;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer; }
+    #sign-in-container #create-account:hover {
+      font-weight: bold;
+      text-decoration: underline; }
+
+#headline {
+  margin: 0; }
+
+#page-container {
+  position: relative;
+  top: 60px; }
+
+body {
+  margin: 0;
+  height: auto; }
+
+/*# sourceMappingURL=styles.css.map */

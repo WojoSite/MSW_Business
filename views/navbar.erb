@@ -1,0 +1,20 @@
+<!-- ======= views/menu.erb ======= -->
+
+<% menu_items = [{:display => "Products", :path => "products"}, {:display => "Sign In", :path => "signin"}] %>
+
+<div id="navbar-container">
+  <a id="company-logo-link" href=<%= :/ %>>
+    <div id="company-logo">
+      <p id="company-logo-text">Wojo Corp.</p>
+    </div>
+  </a>
+  <div id="menu-items">
+    <% for x in menu_items %>
+      <a class="menu-link" href=<%= x[:path] %>>
+        <div class="menu-item">
+          <p class="menu-item-text"><%= x[:display] %></p>
+        </div>
+      </a>
+    <% end %>
+  </div>
+</div>

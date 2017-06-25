@@ -1,0 +1,19 @@
+<!-- views/layout.erb -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <head>
+		<link href="https://fonts.googleapis.com/css?family=Audiowide|Montserrat:100" rel="stylesheet">
+	    <link rel="stylesheet" type="text/css" href="/styles.css">
+      <title>WojoCorp.</title>
+	</head>
+</head>
+<body>
+  <div id="navbar" class="section">
+    <%= erb :navbar %>
+  </div>
+  <div id="page-container">
+    <%= yield %>
+  </div>
+</body>
+</html>
